@@ -1,10 +1,7 @@
-import {
-  TReaderDocument,
-  renderToStaticMarkup,
-} from "@usewaypoint/email-builder";
+import { renderToStaticMarkup } from "./usewaypoint/email-builder/dist";
 
 // Replace this with the JSON for your Reader document
-const CONFIGURATION: TReaderDocument = {
+const CONFIGURATION: any = {
   root: {
     type: "EmailLayout",
     data: {
