@@ -1,6 +1,7 @@
-import { TReaderDocument } from "@usewaypoint/email-builder";
-
-import renderToStaticMarkup from "@usewaypoint/email-builder/dist/renderers/renderToStaticMarkup";
+import {
+  TReaderDocument,
+  renderToStaticMarkup,
+} from "@usewaypoint/email-builder";
 
 // Replace this with the JSON for your Reader document
 const CONFIGURATION: TReaderDocument = {
